@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
- background(255);
+ background(255, 170);
  
  frameRate(7);
 
@@ -41,7 +41,7 @@ push();
   rect(0, 0, 200, 4000);
   rect(3800, 0, 200, 4000);
   pop();
-  
+
 //outline of the frame
 push();
 noFill();
