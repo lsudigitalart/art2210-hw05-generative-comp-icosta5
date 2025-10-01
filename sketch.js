@@ -9,8 +9,9 @@ function setup() {
 }
 
 function draw() {
- background(255, 170);
- 
+//180 makes the lines fade out
+ background(255, 180);
+
  frameRate(7);
 
  
@@ -27,13 +28,13 @@ function draw() {
     let y1 = random(height);
     let length = 300;
     //translate and rotate functions
- translate(x1, y1);
+  translate(x1, y1);
   rotate(random(TWO_PI));
   line(-length / 2, 0, length / 2, 0);
-      pop();
+  pop();
   }
   //frame for the interactive piece as if its in a museum
-push();
+  push();
   noStroke();
   fill(249, 215, 228);
   rect(0, 3800, 4000, 200);
